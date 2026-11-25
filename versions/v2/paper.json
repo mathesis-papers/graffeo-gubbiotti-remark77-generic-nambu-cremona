@@ -1,0 +1,66 @@
+{
+  "files": {
+    "pdf": {
+      "bytes": 93471,
+      "matches_public": true,
+      "path": "paper.pdf",
+      "public_sha256": "1148156bbf783984c97bc9ab7a37fe36c4abc9b89beb1e5842150472b8f33be3",
+      "sha256": "1148156bbf783984c97bc9ab7a37fe36c4abc9b89beb1e5842150472b8f33be3"
+    },
+    "source": {
+      "bytes": 111041,
+      "matches_public": true,
+      "path": "source.archive",
+      "public_sha256": "b705dcdb9ea61f56dad2c5962df599027b4a80ca3a41428d18522ec282f90e5e",
+      "sha256": "b705dcdb9ea61f56dad2c5962df599027b4a80ca3a41428d18522ec282f90e5e"
+    }
+  },
+  "source_identity": "Mathesis public projection",
+  "work": {
+    "abstract_text": "We prove the projective-conjugacy conjecture in Graffeo–Gubbiotti, Remark 7.7, arXiv:2301.09129v2, pp. 35–37, for quadratic Nambu Hamiltonians with a positive-definite first form and simple generalized spectrum. An explicit simultaneous-congruence reduction and Euler cubic identity give the conjugator. The six reducible net members split into the twelve planes v_i±v_j=0 through eight projective sign points, with six planes at every point and four points on every plane; the conjugator sends the points to the normal-form tetrahedra. The written proof extends conjugacy to regular complex symmetric pencils with three distinct projective determinant roots. For real positive-definite first form, repeated generalized eigenvalues give degree 2n+1 in the double case and degree 1 in the scalar case, complementing the cited generic law 2n^2+1.",
+    "authors": [
+      {
+        "affiliation": "ChronoAI Pte Ltd, Singapore",
+        "name": "Haobo Ma"
+      },
+      {
+        "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+        "name": "Wenlin Zhang"
+      }
+    ],
+    "concept_doi": null,
+    "current_version": 2,
+    "doi": null,
+    "lean_source": {
+      "revision": "86172888e706177b6c1d135cb12aec3b6d2cdce8",
+      "url": "https://github.com/the-omega-institute/trureturing/blob/86172888e706177b6c1d135cb12aec3b6d2cdce8/D5/S3/FluidDynamics/Solitons/NambuKahanCremonaDecomposition.lean"
+    },
+    "license": "CC-BY-4.0",
+    "msc": [],
+    "pdf": {
+      "bytes": 93471,
+      "sha256": "1148156bbf783984c97bc9ab7a37fe36c4abc9b89beb1e5842150472b8f33be3",
+      "url": "/api/v1/collected-papers/graffeo-gubbiotti-remark77-generic-nambu-cremona/files/pdf?version=2"
+    },
+    "previous_version": null,
+    "publication": "public",
+    "published_on": "2026-11-25T18:47:05.105373945Z",
+    "record": "graffeo-gubbiotti-remark77-generic-nambu-cremona",
+    "repository_name": "graffeo-gubbiotti-remark77-generic-nambu-cremona",
+    "source": {
+      "bytes": 111041,
+      "sha256": "b705dcdb9ea61f56dad2c5962df599027b4a80ca3a41428d18522ec282f90e5e",
+      "url": "/api/v1/collected-papers/graffeo-gubbiotti-remark77-generic-nambu-cremona/files/source?version=2"
+    },
+    "title": "Graffeo–Gubbiotti, Remark 7.7 (arXiv:2301.09129v2, pp. 35–37): Nambu conjugacy and the twelve-plane configuration",
+    "versions": [
+      {
+        "previous_version": null,
+        "published_on": "2026-11-25T18:47:05.105373945Z",
+        "revision": "2",
+        "version": 2
+      }
+    ],
+    "work": "graffeo-gubbiotti-remark77-generic-nambu-cremona"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "graffeo-gubbiotti-remark77-generic-nambu-cremona",
+  "revision": 2,
+  "problem_ids": ["graffeo-gubbiotti-2024-nambu-kahan-cremona-decomposition"],
+  "topic": "Explicit Nambu conjugacy and the twelve-plane incidence configuration in Graffeo–Gubbiotti, Remark 7.7",
+  "title": "Graffeo–Gubbiotti, Remark 7.7 (arXiv:2301.09129v2, pp. 35–37): Nambu conjugacy and the twelve-plane configuration",
+  "creators": [
+    {"name": "Ma, Haobo", "affiliation": "ChronoAI Pte Ltd, Singapore"},
+    {"name": "Zhang, Wenlin", "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore"}
+  ],
+  "abstract": "We prove the projective-conjugacy conjecture in Graffeo–Gubbiotti, Remark 7.7, arXiv:2301.09129v2, pp. 35–37, for quadratic Nambu Hamiltonians with a positive-definite first form and simple generalized spectrum. An explicit simultaneous-congruence reduction and Euler cubic identity give the conjugator. The six reducible net members split into the twelve planes v_i±v_j=0 through eight projective sign points, with six planes at every point and four points on every plane; the conjugator sends the points to the normal-form tetrahedra. The written proof extends conjugacy to regular complex symmetric pencils with three distinct projective determinant roots. For real positive-definite first form, repeated generalized eigenvalues give degree 2n+1 in the double case and degree 1 in the scalar case, complementing the cited generic law 2n^2+1.",
+  "summary": "Explicit conjugacy, square composition factors, six reducible quadrics and all 48 point-plane incidences; simple complex pencils and the complete real positive-definite spectral multiplicity cases are included.",
+  "license": "cc-by-4.0",
+  "evidence_url": "https://github.com/the-omega-institute/trureturing/blob/86172888e706177b6c1d135cb12aec3b6d2cdce8/D5/S3/FluidDynamics/Solitons/NambuKahanCremonaDecomposition.lean",
+  "posing_source": {
+    "url": "https://arxiv.org/abs/2301.09129v2",
+    "doi": "10.1007/s00023-023-01339-5",
+    "locator": "Remark 7.7, pp. 35–37; equations (7.15)–(7.23) and the concluding incidence question",
+    "authors": ["Michele Graffeo", "Giorgio Gubbiotti"],
+    "earlier_discussion": "arXiv:2301.09129v1, Remark 7.7, pp. 34–35 (January 22, 2023)"
+  },
+  "formal_statement": {
+    "declaration": "D5.S3.FluidDynamics.Solitons.NambuKahanCremonaDecomposition.result",
+    "scope": "Existence of two invertible complex 4-by-4 matrices factoring the homogeneous Kahan lift through the standard cubic Cremona map, for real positive-definite A and B, rank(B-tA)>=2 for every real t, and h>0.",
+    "source_sha256": "44ae75cbf6c8b3da5bbe6b2ac40b00596dfc06b789aae2c34f584bbb9ffd4ba9",
+    "auxiliary_declarations": [
+      {"name": "euler_top_identity", "scope": "Universal complex Euler cubic identity for three specified square roots of the coefficients."},
+      {"name": "covariance", "scope": "Equality of the Nambu and Euler lifts under a specified real simultaneous congruence."},
+      {"name": "assembly", "scope": "Constructs the conjugator internally and proves the public factorization proposition from the preceding identities and positive-definite spectral reduction."}
+    ]
+  },
+  "written_proof_scope": "Theorem 1 proves explicit conjugacy for A positive definite, B real symmetric with simple generalized spectrum and nonzero real step. Corollaries 2–4 establish composition constants, base loci, eight reduced points, six reducible quadrics and the full twelve-plane incidence. Corollary 5 treats complex symmetric pencils with three distinct projective determinant roots. Corollary 6 gives all spectral-multiplicity degree laws for real positive-definite A; the generic degree law is the cited Graffeo–Gubbiotti theorem transported by conjugacy.",
+  "exact_algebra": "verify.py checks 23 symbolic identity groups with 107 zero residuals, all 48 sign-point/plane incidences, all eight normal-form point images, and four double-spectrum iterate degrees.",
+  "coverage_file": "coverage.json"
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "problem_ids": ["graffeo-gubbiotti-2024-nambu-kahan-cremona-decomposition"],
+  "source_url": "https://arxiv.org/abs/2301.09129v2",
+  "source_items": [
+    {"locator": "Remark 7.7, pp. 35–37", "status": "proved", "scope": "Explicit projective conjugacy for A positive definite, B real symmetric with simple generalized spectrum, and nonzero real step; also regular complex symmetric pencils with three distinct projective determinant roots.", "proof": "note.tex: Theorem 1, Section 2, Corollary 5"},
+    {"locator": "Equation (7.15), p. 36", "status": "proved", "scope": "Both composition factors are squares of products of four distinct independent linear forms, with constants 1/256 and 1/65536 for the specified lifts.", "proof": "note.tex: Corollary 2"},
+    {"locator": "Equation (7.16), p. 36", "status": "proved", "scope": "Eight distinct reduced base points. The source already states eight distinct points and describes a Macaulay2 check; the written proof gives explicit coordinates and reducedness.", "proof": "note.tex: Corollary 3"},
+    {"locator": "Equations (7.20)–(7.23), p. 37", "status": "proved", "scope": "Exactly six rank-two quadrics, each splitting into two distinct planes. The source already states the six-member count; explicit simultaneous-congruence formulas avoid a vanishing parameter chart.", "proof": "note.tex: Corollary 4"},
+    {"locator": "Final two paragraphs of Remark 7.7, p. 37", "status": "proved", "scope": "The twelve planes are v_i±v_j=0 and the eight points are projective sign vectors. Incidence is sigma=epsilon_i epsilon_j, giving six planes at each point and four points per plane. U sends the points to e_i and G e_i.", "proof": "note.tex: Corollary 4; verification.json: complete 48-incidence enumeration"},
+    {"locator": "Lemma 2.6 and Corollary 2.9, pp. 11–12", "status": "prior proof cited", "scope": "Euler-top factorization and projective conjugacy. Section 2 supplies a normalization-matched polynomial derivation and transports them to Nambu systems.", "proof": "note.tex: Section 1, Section 2"},
+    {"locator": "Remark 2.8 and Proposition 5.3, pp. 12 and 22", "status": "prior proof cited", "scope": "Six-line indeterminacy loci and degree 2n^2+1, transported by projective conjugacy.", "proof": "note.tex: Corollary 2"},
+    {"locator": "Equation (7.14), p. 35; Celledoni et al., Proposition 5", "status": "prior proof cited", "scope": "The two modified Nambu integrals defining the net.", "proof": "note.tex: Section 1; Celledoni et al., arXiv:1405.3740, p. 7"},
+    {"locator": "Section 8, p. 44: parameter collisions", "status": "proved", "scope": "For A positive definite and B real symmetric, exactly two eigenvalues give degree 2n+1; all three coincident give degree 1. All multiplicity cases have dynamical degree one and entropy zero.", "proof": "note.tex: Corollary 6"},
+    {"locator": "Section 8: singular and nonsemisimple degenerations", "status": "not covered", "scope": "No classification of singular pencils or nonsemisimple repeated-root pencils is asserted."},
+    {"locator": "Section 8, equations (8.1)–(8.7)", "status": "not covered", "scope": "Higher-dimensional Cremona-cube groups, Table 7 and the separate theta-map singularity pattern are different questions."}
+  ],
+  "formal_scope": "The pinned result declaration proves two-projectivity factorization for positive-definite real A and B, simple generalized spectrum and positive step. Auxiliary euler_top_identity proves the complex Euler cubic, and covariance proves lift covariance for a specified simultaneous congruence. The broader statements have written proofs in note.tex.",
+  "additional_problem_ids": [],
+  "id_scope": "Only the existing Nambu result identifier is assigned; source-item consequences are indexed by their scientific locators."
+}

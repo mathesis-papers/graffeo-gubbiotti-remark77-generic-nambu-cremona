@@ -1,0 +1,398 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=26mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,booktabs,array}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\hypersetup{pdftitle={Graffeo--Gubbiotti, Remark 7.7 (arXiv:2301.09129v2): Nambu conjugacy and the twelve-plane configuration},pdfauthor={Haobo Ma; Wenlin Zhang}}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}[theorem]{Corollary}
+\newcommand{\C}{\mathbb C}
+\newcommand{\R}{\mathbb R}
+\newcommand{\adj}{\operatorname{adj}}
+\newcommand{\diag}{\operatorname{diag}}
+\newcommand{\Cr}{\mathcal C}
+\title{Graffeo--Gubbiotti, Remark 7.7\newline
+\large arXiv:2301.09129v2, pp.\ 35--37\newline
+\Large Nambu conjugacy and the twelve-plane configuration}
+\author{Haobo Ma\thanks{ChronoAI Pte Ltd, Singapore.}\qquad Wenlin Zhang\thanks{National University of Singapore; ChronoAI Pte Ltd, Singapore.}}
+\date{November 3, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+\setlength{\emergencystretch}{2em}
+We resolve Graffeo--Gubbiotti's Remark~7.7
+(arXiv:2301.09129v2, pp.\ 35--37) for quadratic Nambu maps with a
+positive-definite first form and simple generalized spectrum.
+Simultaneous congruence reduces the vector field to an Euler top, and an explicit
+four-dimensional linear change conjugates its Kahan--Hirota--Kimura map to
+$(2I_4-\mathbf1\mathbf1^T)\circ\Cr$, where $\Cr$ is the standard cubic Cremona map.
+The argument also allows a symmetric second Hamiltonian and every nonzero step.
+It gives the square factors in (7.15) and an explicit answer to the
+twelve-plane incidence question following (7.23): each of the eight base
+points lies on six planes, each plane contains four points, and the conjugator
+sends the points to the two normal-form tetrahedra.
+We also treat regular complex pencils with three distinct projective roots
+and determine the linear degree growth when two real generalized eigenvalues coincide.
+\end{abstract}
+\noindent\small Licensed under Creative Commons Attribution 4.0 International
+(CC BY 4.0).\normalsize
+
+\section{Statement and normalization}
+Graffeo--Gubbiotti, Remark~7.7, arXiv:2301.09129v2, pp.\ 35--37
+\cite{GG}, asks for projective conjugacy of the quadratic Nambu
+Kahan--Hirota--Kimura map to type (A)-(i), and for the arrangement of eight
+points on twelve planes. Both follow from the explicit conjugator below.
+The authors' earlier version~1, Remark~7.7, pp.\ 34--35, already describes the
+Nambu--Euler class identification through singularity patterns; version~2
+isolates the conjugacy conjecture and the incidence question.
+Their Lemma~2.6 and Corollary~2.9 prove the Euler-top factorization and conjugacy.
+Celledoni et al.\ \cite[Proposition~5]{Celledoni} establish the Nambu
+integrals underlying the net (7.16). Related constructions of three-dimensional
+QRT maps use pairs of pencils of quadrics \cite[Sections~3--5]{AS}; here a
+constant simultaneous congruence and a cubic identity give the conjugator.
+
+Let $A,B$ be real symmetric $3\times3$ matrices, set
+$H_1(x)=x^TAx$, $H_2(x)=x^TBx$, and put
+\[
+ f(x)=\nabla H_1(x)\times\nabla H_2(x)=4(Ax\times Bx),\qquad
+ L(x)v=Ax\times Bv+Av\times Bx.
+\]
+Thus $Df(x)=4L(x)$. For $X=(x,w)\in\C^4$ and real $h\ne0$, define the cubic lift
+\begin{equation}\label{eq:lift}
+ M(X)=wI_3-2hL(x),\qquad
+ F_h(X)=\bigl(\adj(M(X))x,\det M(X)\bigr).
+\end{equation}
+On $w=1$, this represents $(I_3-\frac h2 Df(x))^{-1}x$, the Kahan map:
+its polarized equation is $x'-x=\frac h2 Df(x)x'$ because $f$ is homogeneous
+quadratic. This also agrees with \cite[(2.2)--(2.3)]{GG}.
+Write
+\[
+ \Cr(Y)=(Y_2Y_3Y_4,Y_1Y_3Y_4,Y_1Y_2Y_4,Y_1Y_2Y_3),\quad
+ G=2I_4-\mathbf1\mathbf1^T,
+\]
+where $\mathbf1=(1,1,1,1)^T$; then $G^2=4I_4$ and $\det G=-16$.
+
+\begin{theorem}\label{thm:main}
+Suppose $A$ is positive definite, $B$ is symmetric, and
+\begin{equation}\label{eq:rank}
+ \operatorname{rank}(B-tA)\ge2\quad\text{for every }t\in\R.
+\end{equation}
+For every real $h\ne0$, there is $U\in\operatorname{GL}_4(\C)$ such that
+\begin{equation}\label{eq:normal}
+ U F_h(X)=-\tfrac18 G\Cr(UX)\qquad(X\in\C^4).
+\end{equation}
+Consequently $[F_h]$ is projectively conjugate to $[G\Cr]$.
+In particular the positive-definite case of Remark 7.7 with simple generalized
+spectrum is of type (A)-(i).
+\end{theorem}
+
+\section{An explicit conjugator}
+Choose an orthogonal eigenbasis $Q$ of the real symmetric matrix
+$A^{-1/2}BA^{-1/2}$ and set $P=A^{-1/2}Q$. Then
+\[
+ P^TAP=I_3,\qquad P^TBP=\diag(\mu_1,\mu_2,\mu_3),\qquad d=\det P\ne0.
+\]
+Congruence preserves rank, so (\ref{eq:rank}) is equivalent to pairwise
+distinct $\mu_i$: the rank of $\diag(\mu_i-t)$ is the number of nonzero
+diagonal entries. Put
+\begin{equation}\label{eq:a}
+ a_1=\frac4d(\mu_3-\mu_2),\qquad
+ a_2=\frac4d(\mu_1-\mu_3),\qquad
+ a_3=\frac4d(\mu_2-\mu_1).
+\end{equation}
+All three coefficients are nonzero. The identity
+\begin{equation}\label{eq:cross}
+ (P^{-T}u)\times(P^{-T}v)=d^{-1}P(u\times v)
+\end{equation}
+follows by pairing both sides with $P^{-T}z$ and using the determinant formula
+for the scalar triple product. Since $AP=P^{-T}$ and
+$BP=P^{-T}\diag(\mu_i)$, substitution of $x=Py$ gives
+\[
+ P^{-1}f(Py)=(a_1y_2y_3,a_2y_1y_3,a_3y_1y_2)=:e(y).
+\]
+Differentiation gives $Df(Py)P=PDe(y)$. With $R=\diag(P,1)$ and
+\[
+ E_h(y,w)=\bigl(\adj(wI_3-\tfrac h2 De(y))y,
+                    \det(wI_3-\tfrac h2 De(y))\bigr),
+\]
+conjugation of the matrix in (\ref{eq:lift}) therefore gives the polynomial
+identity
+\begin{equation}\label{eq:cov}
+ F_h(RZ)=R E_h(Z).
+\end{equation}
+Here determinant and adjugate commute with similarity, including at singular
+matrices; the latter identity follows first for invertible matrices and then
+as a polynomial identity.
+
+Choose complex square roots $\alpha^2=a_1$, $\beta^2=a_2$, $\gamma^2=a_3$, and set
+\begin{equation}\label{eq:T}
+ T=\begin{pmatrix}
+ -\beta\gamma h&-\alpha\gamma h&\alpha\beta h&-2\\
+ \beta\gamma h&-\alpha\gamma h&-\alpha\beta h&-2\\
+ -\beta\gamma h&\alpha\gamma h&-\alpha\beta h&-2\\
+ \beta\gamma h&\alpha\gamma h&\alpha\beta h&-2
+ \end{pmatrix}.
+\end{equation}
+Its determinant is $32\alpha^2\beta^2\gamma^2h^3\ne0$. The Euler identity is
+\begin{equation}\label{eq:euler}
+ T E_h(Z)=-\tfrac18 G\Cr(TZ).
+\end{equation}
+For completeness, the following quartic calculation proves this identity
+with the normalization used here. Set
+\[
+ q=(r,s,t,v)=(h\beta\gamma y_1,h\alpha\gamma y_2,h\alpha\beta y_3,-2w),
+ \quad
+ J=\begin{pmatrix}-1&-1&1&1\\1&-1&-1&1\\-1&1&-1&1\\1&1&1&1\end{pmatrix}.
+\]
+Then $TZ=Jq$, $J^TJ=4I_4$, and
+$GJ=2J D_0$ for $D_0=\diag(1,1,1,-1)$.
+Expansion of the $3\times3$ adjugate shows that the corresponding scaled
+output of $E_h$ is $q'=\frac14(p_r,p_s,p_t,p_v)$, where
+\begin{align*}
+ p_r&=r(v^2+s^2+t^2-r^2)-2stv,\\
+ p_s&=s(v^2+r^2+t^2-s^2)-2rtv,\\
+ p_t&=t(v^2+r^2+s^2-t^2)-2rsv,\\
+ p_v&=v^3-v(r^2+s^2+t^2)+2rst.
+\end{align*}
+To check the grouping of the cubic terms, write $\pi(Y)=Y_1Y_2Y_3Y_4$.
+Multiplying the four linear forms in $Jq$ gives
+\[
+ \pi(Jq)=r^4+s^4+t^4+v^4
+ -2(r^2s^2+r^2t^2+s^2t^2+r^2v^2+s^2v^2+t^2v^2)+8rstv.
+\]
+Taking its gradient yields
+$J^T\Cr(Jq)=-16D_0q'$. Hence
+$J^TG\Cr(Jq)=-32q'$, and multiplication by $J/4$ gives
+$Jq'=-G\Cr(Jq)/8$, proving (\ref{eq:euler}).
+Finally, take $U=TR^{-1}$ and apply (\ref{eq:euler}) to
+$Z=R^{-1}X$ in (\ref{eq:cov}). This proves Theorem~\ref{thm:main}, including
+the homogeneous identity at every $X$, not just on the affine domain.
+
+\section{Consequences at the posing source}
+\begin{corollary}\label{cor:planes}
+Under the hypotheses of Theorem~\ref{thm:main}, the degree-eight factors in
+\cite[(7.15)]{GG} are squares of products of four distinct linear forms.
+The indeterminacy loci of the map and its inverse are each six lines forming
+the edges of a tetrahedron. The degree of its $n$th iterate is $2n^2+1$.
+\end{corollary}
+\begin{proof}
+The matrices above obey $T_{-h}=-GT_h/2$, and therefore $U_{-h}=-GU_h/2$.
+Writing $U=U_h$, (\ref{eq:normal}) at both signs of $h$ gives
+\[
+ F_h=-\tfrac18U^{-1}G\Cr U,\qquad
+ F_{-h}=-\tfrac1{32}U^{-1}\Cr G U.
+\]
+Since $\Cr(\Cr(Y))=\pi(Y)^2Y$ and $\Cr(cY)=c^3\Cr(Y)$, composition yields
+\begin{equation}\label{eq:compositions}
+ F_{-h}(F_h(X))=\frac{\pi(UX)^2}{256}X,\qquad
+ F_h(F_{-h}(X))=\frac{\pi(GUX)^2}{65536}X.
+\end{equation}
+Invertibility of $U$ and $GU$ makes the four factors in each product distinct.
+The base locus of $\Cr$ is the union of the six lines $Y_i=Y_j=0$
+($i<j$). Thus the two base loci are the inverse images of these lines under
+$U$ and $GU$, respectively; this transports \cite[Remark 2.8]{GG}.
+Finally, degree is preserved by projective conjugacy, so the type (A)
+degree formula in \cite[Proposition 5.3]{GG} applies.
+\end{proof}
+
+\begin{corollary}\label{cor:eight}
+The net in \cite[(7.16)]{GG}, with
+$H_3(x)=x^TA\adj(B)Ax$, has eight distinct base points.
+\end{corollary}
+\begin{proof}
+The base equations are $H_1=H_2=w^2+4h^2H_3=0$.
+In $x=Py$ coordinates, adjugate congruence gives
+\[
+ H_1=\sum_i y_i^2,\quad H_2=\sum_i\mu_i y_i^2,\quad
+ H_3=d^{-2}\sum_i\mu_j\mu_k y_i^2\quad(\{i,j,k\}=\{1,2,3\}).
+\]
+Put $b=(\mu_2-\mu_3,\mu_3-\mu_1,\mu_1-\mu_2)$ and
+$\Delta=(\mu_1-\mu_2)(\mu_1-\mu_3)(\mu_2-\mu_3)$.
+The first two equations force $(y_1^2,y_2^2,y_3^2)=\lambda b$; the identity
+$\sum_i\mu_j\mu_k b_i=\Delta$ then gives
+$w^2=-4h^2d^{-2}\lambda\Delta$.
+Here $\lambda\ne0$, since $\lambda=0$ would force all four homogeneous
+coordinates to vanish. All $b_i$ and $\Delta$ are nonzero. After projective
+rescaling to $\lambda=1$, there are sixteen choices of square roots, identified
+in pairs by simultaneous sign reversal. These are eight distinct points.
+They are reduced: on the locus of nonzero coordinates, coordinatewise squaring
+has invertible differential, and the three equations in the squares are
+independent linear equations.
+\end{proof}
+
+\begin{corollary}\label{cor:incidence}
+Under the hypotheses of Theorem~\ref{thm:main}, the net (7.16) has exactly
+six reducible members, each a pair of distinct planes. In suitable coordinates
+$v=(v_1,v_2,v_3,v_4)$, they are
+\[
+ (v_i-v_j)(v_i+v_j)=0\qquad(1\le i<j\le4),
+\]
+and the base points are
+$p_{\epsilon}=[\epsilon_1:\epsilon_2:\epsilon_3:1]$,
+$\epsilon_i\in\{1,-1\}$.
+Each point lies on six of the twelve distinct planes, and each plane contains
+four of the eight points. More precisely, with $\epsilon_4=1$,
+\[
+ p_{\epsilon}\in\{v_i-\sigma v_j=0\}
+ \quad\Longleftrightarrow\quad \sigma=\epsilon_i\epsilon_j.
+\]
+The conjugator $U$ sends the base-point set to
+$\{[e_i],[Ge_i]:1\le i\le4\}$, where $e_i$ are the coordinate vectors.
+\end{corollary}
+\begin{proof}
+Let $c=4h^2/d^2$ and use $b,\Delta$ from Corollary~\ref{cor:eight}.
+Choose $s_i^2=b_i$ and $s_4^2=-c\Delta$, and put
+$v_i=y_i/s_i$ and $v_4=w/s_4$. The net becomes the full
+three-dimensional vector space of diagonal quadrics
+$\sum_{i=1}^4 k_i v_i^2$ with $\sum_i k_i=0$:
+the three generators are independent and vanish at all sign vectors.
+A nonzero diagonal quadric is reducible over $\C$ precisely when it has
+rank at most two. Rank one is excluded by $\sum k_i=0$; rank two forces
+exactly two nonzero coefficients $k_i=-k_j$. This proves the six-member
+description and distinctness of all twelve planes. The displayed incidence
+rule gives four points per plane and one plane per coordinate pair at each point.
+
+For explicit members in the $y,w$ coordinates, for each
+$\{i,j,k\}=\{1,2,3\}$ take
+\[
+ (\mu_j-\mu_i)y_j^2+(\mu_k-\mu_i)y_k^2,
+ \qquad w^2+c(\mu_i-\mu_j)(\mu_i-\mu_k)y_i^2.
+\]
+Their net parameters are respectively
+$[-\mu_i:1:0]$ and $[-c\mu_i(\mu_j+\mu_k):c\mu_i:1]$.
+These provide the six members in \cite[(7.20)--(7.23)]{GG}
+without choosing a parameter chart that can vanish at diagonal forms.
+
+Finally $a_i=-4b_i/d$ and $b_1b_2b_3=-\Delta$ show that the
+scaled coordinates $q$ in Section~2 satisfy
+$q_1^2=q_2^2=q_3^2=q_4^2\ne0$ at each base point.
+The eight projective sign vectors split into four even-parity and four
+odd-parity classes. Multiplication by $J$ sends the former to $[e_i]$
+and the latter to $[Ge_i]$, as follows by multiplying its four rows
+by each sign vector. Since $UX=Jq$, this proves the last assertion and
+answers the incidence question on p.\ 37 of \cite{GG}.
+\end{proof}
+
+\section{Extensions and collisions}
+\begin{corollary}\label{cor:complex}
+For complex symmetric $A,B$, suppose the binary cubic
+$\det(sA+tB)$ has three distinct roots in $\mathbb P^1(\C)$.
+Then, for every $h\in\C^*$, the Nambu Kahan map is projectively conjugate
+to $[G\Cr]$.
+\end{corollary}
+\begin{proof}
+First suppose $A$ is invertible and $A^{-1}B$ has three distinct eigenvalues.
+The eigenvectors form a basis and are orthogonal for the nondegenerate
+bilinear form $u^TAv$: if their eigenvalues are $\mu_i\ne\mu_j$, symmetry
+gives $(\mu_i-\mu_j)u_i^T A u_j=0$.
+None has zero self-pairing, since it would then be orthogonal to the whole
+basis and lie in the radical of $A$. Scaling them gives
+$P^TAP=I$, $P^TBP=\diag(\mu_i)$ over $\C$.
+All identities in Section~2 apply unchanged, proving the assertion.
+In general choose an invertible member $A'=pA+qB$ and an independent
+$B'=rA+sB$, with $\delta=ps-qr\ne0$.
+Such an $A'$ exists because the binary determinant is nonzero.
+The three projective roots remain distinct after this parameter change, so
+$A'^{-1}B'$ has simple spectrum. The Nambu vector field of $(A',B')$ is
+$\delta$ times that of $(A,B)$. Its Kahan map at step $h/\delta$ is
+therefore exactly the original map at step $h$; the first case applies.
+\end{proof}
+
+\begin{corollary}\label{cor:collision}
+Let $A>0$ and $B=B^T$ be real, and let $h\ne0$. For $n\ge0$, the degrees
+of the iterates are $2n^2+1$ for three distinct generalized eigenvalues,
+$2n+1$ for exactly two distinct generalized eigenvalues, and $1$ when all
+three coincide. All these maps have dynamical degree one and algebraic
+entropy zero.
+\end{corollary}
+\begin{proof}
+The first case is Corollary~\ref{cor:planes}. In the second, order the
+eigenvalues so that $\mu_2=\mu_3\ne\mu_1$. Simultaneous congruence still
+gives the Euler field $(0,a y_1y_3,-a y_1y_2)$ with
+$a=4(\mu_1-\mu_2)/d\ne0$.
+Put $z_+=y_2+\mathrm i y_3$, $z_-=y_2-\mathrm i y_3$ and
+$L_\pm=w\pm \mathrm i h a y_1/2$.
+The polarized equations give $y_1'=y_1$ on $w=1$, and
+$z_+'=(L_-/L_+)z_+$, $z_-'=(L_+/L_-)z_-$.
+Thus, in coordinates $[y_1:z_+:z_-:w]$, the $n$th iterate has lift
+\[
+ \bigl(y_1(L_+L_-)^n,\ z_+L_-^{2n},\ z_-L_+^{2n},\ w(L_+L_-)^n\bigr).
+\]
+For $n\ge1$ these degree-$2n+1$ polynomials have no common factor:
+$L_+,L_-$ are distinct, and the second and third entries omit opposite
+factors; their other possible common factors are excluded by the first
+and fourth entries. For $n=0$ the map is the identity.
+If all eigenvalues coincide, $B=\mu A$, so the vector field vanishes.
+Finally all three degree laws have $\lim_{n\to\infty}(\deg F^n)^{1/n}=1$.
+\end{proof}
+
+This covers the semisimple collisions in the positive-definite family
+mentioned in \cite[Section~8]{GG}. Singular pencils, nonsemisimple
+collisions, and the separate map $\theta$ in (8.5)--(8.7) remain different
+questions.
+
+\begin{center}\small
+\begin{tabular}{@{}p{0.25\linewidth}p{0.67\linewidth}@{}}
+\toprule
+Source item in \cite{GG} & Coverage\\\midrule
+Remark 7.7 & Proved: Theorem~\ref{thm:main}; extended to regular simple complex pencils in Corollary~\ref{cor:complex}.\\
+(7.15) & Proved: exact square factors in (\ref{eq:compositions}).\\
+(7.16) & Proved: eight reduced base points (Corollary~\ref{cor:eight}); the eight-point assertion is already in \cite{GG}, p.\ 36.\\
+(7.20)--(7.23); p.\ 37 & Proved: six reducible quadrics and twelve-plane incidence, Corollary~\ref{cor:incidence}; the six-member assertion is already in \cite{GG}.\\
+Lemma 2.6; Corollary 2.9; Remark 2.8; Proposition 5.3 & Prior proof cited: Euler factorization and conjugacy, tetrahedra, quadratic degree law; transported here.\\
+(7.14); \cite[Prop.\ 5]{Celledoni} & Prior proof cited: modified Nambu integrals.\\
+Section 8: collisions & Proved for $A>0$, $B=B^T$: Corollary~\ref{cor:collision}.\\
+Section 8: other degenerations; (8.5)--(8.7) & Not covered: singular pencils, nonsemisimple collisions, $\theta$ and its singularity pattern.\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\paragraph{Statement and computation coverage.}
+The pinned Lean source
+\href{https://github.com/the-omega-institute/trureturing/blob/86172888e706177b6c1d135cb12aec3b6d2cdce8/D5/S3/FluidDynamics/Solitons/NambuKahanCremonaDecomposition.lean}{\texttt{.lean} file}
+contains the declaration
+\begin{quote}\small\ttfamily
+D5.S3.FluidDynamics.Solitons.\\
+NambuKahanCremonaDecomposition.result
+\end{quote}
+Its proposition states that for real positive-definite $A,B$ satisfying
+(\ref{eq:rank}) and $h>0$, the lift (\ref{eq:lift}) equals
+$L_2\Cr(L_1X)$ with $L_1,L_2\in\operatorname{GL}_4(\C)$.
+The auxiliary declaration \texttt{euler\_top\_identity}
+proves (\ref{eq:euler}) for complex Euler coefficients with specified
+square roots; \texttt{covariance} proves (\ref{eq:cov}) for a given
+simultaneous congruence. Its \texttt{assembly} constructs the conjugator
+internally; the public \texttt{result} asserts the two-projectivity factorization.
+The explicit conjugacy for symmetric $B$ and $h\ne0$, and all
+Corollaries~\ref{cor:planes}--\ref{cor:collision}, have the written proofs above;
+the complex-pencil and collision extensions are statements of those written proofs.
+The accompanying \texttt{verify.py} checks the universal Euler cubic,
+determinant, cross-product, quartic, reversal and composition identities by
+exact polynomial arithmetic, as well as an exact nonorthogonal example.
+It also enumerates all eight sign points and twelve planes, verifies their
+48 incidences and their images under $J$, and checks the six net members
+and the collision formula through the first four iterates.
+
+\begin{thebibliography}{9}
+\bibitem{GG} M. Graffeo and G. Gubbiotti,
+\emph{Growth and integrability of some birational maps in dimension three},
+Ann. Henri Poincar\'e \textbf{25} (2024), 1733--1793.
+\href{https://doi.org/10.1007/s00023-023-01339-5}{doi:10.1007/s00023-023-01339-5}.
+Posing version: \href{https://arxiv.org/abs/2301.09129v2}{arXiv:2301.09129v2}
+(June 3, 2023), Remark 7.7, pp. 35--37.
+Earlier class-identification discussion:
+\href{https://arxiv.org/abs/2301.09129v1}{version 1} (January 22, 2023),
+Remark 7.7, pp. 34--35.
+\bibitem{Celledoni} E. Celledoni, R. I. McLachlan, D. I. McLaren,
+B. Owren and G. R. W. Quispel,
+\emph{Integrability properties of Kahan's method},
+J. Phys. A: Math. Theor. \textbf{47} (2014), 365202.
+\href{https://doi.org/10.1088/1751-8113/47/36/365202}{doi:10.1088/1751-8113/47/36/365202};
+\href{https://arxiv.org/abs/1405.3740}{arXiv:1405.3740}, Proposition 5.
+\bibitem{AS} J. Alonso and Y. B. Suris,
+\emph{Invariant volume form for 3D QRT maps},
+\href{https://arxiv.org/abs/2510.11468v1}{arXiv:2510.11468v1}
+(October 13, 2025), Sections 3--5.
+\end{thebibliography}
+\end{document}

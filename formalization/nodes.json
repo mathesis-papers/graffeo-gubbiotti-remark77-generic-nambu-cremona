@@ -1,0 +1,262 @@
+{
+  "nodes": [
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:graffeo-gubbiotti-remark77-generic-nambu-cremona:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "86172888e706177b6c1d135cb12aec3b6d2cdce8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/86172888e706177b6c1d135cb12aec3b6d2cdce8/D5/S3/FluidDynamics/Solitons/NambuKahanCremonaDecomposition.lean"
+      },
+      "lineage": "collected:graffeo-gubbiotti-remark77-generic-nambu-cremona:s1",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\Cr": "\\mathcal C",
+        "\\R": "\\mathbb R",
+        "\\adj": "\\operatorname{adj}",
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "graffeo-gubbiotti-remark77-generic-nambu-cremona",
+      "scope": "in_scope",
+      "statement": "Suppose $A$ is positive definite, $B$ is symmetric, and\n\\begin{equation}\n \\operatorname{rank}(B-tA)\\ge2\\quad\\text{for every }t\\in\\R.\n\\end{equation}\nFor every real $h\\ne0$, there is $U\\in\\operatorname{GL}_4(\\C)$ such that\n\\begin{equation}\n U F_h(X)=-\\tfrac18 G\\Cr(UX)\\qquad(X\\in\\C^4).\n\\end{equation}\nConsequently $[F_h]$ is projectively conjugate to $[G\\Cr]$.\nIn particular the positive-definite case of Remark 7.7 with simple generalized\nspectrum is of type (A)-(i).",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Graffeo–Gubbiotti, Remark 7.7 (arXiv:2301.09129v2, pp. 35–37): Nambu conjugacy and the twelve-plane configuration",
+      "toolchain": null,
+      "version": 2,
+      "work": "graffeo-gubbiotti-remark77-generic-nambu-cremona"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:graffeo-gubbiotti-remark77-generic-nambu-cremona:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "86172888e706177b6c1d135cb12aec3b6d2cdce8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/86172888e706177b6c1d135cb12aec3b6d2cdce8/D5/S3/FluidDynamics/Solitons/NambuKahanCremonaDecomposition.lean"
+      },
+      "lineage": "collected:graffeo-gubbiotti-remark77-generic-nambu-cremona:s2",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\Cr": "\\mathcal C",
+        "\\R": "\\mathbb R",
+        "\\adj": "\\operatorname{adj}",
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "graffeo-gubbiotti-remark77-generic-nambu-cremona",
+      "scope": "in_scope",
+      "statement": "Under the hypotheses of Theorem~\\ref{thm:main}, the degree-eight factors in\n\\cite[(7.15)]{GG} are squares of products of four distinct linear forms.\nThe indeterminacy loci of the map and its inverse are each six lines forming\nthe edges of a tetrahedron. The degree of its $n$th iterate is $2n^2+1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Graffeo–Gubbiotti, Remark 7.7 (arXiv:2301.09129v2, pp. 35–37): Nambu conjugacy and the twelve-plane configuration",
+      "toolchain": null,
+      "version": 2,
+      "work": "graffeo-gubbiotti-remark77-generic-nambu-cremona"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:graffeo-gubbiotti-remark77-generic-nambu-cremona:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "86172888e706177b6c1d135cb12aec3b6d2cdce8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/86172888e706177b6c1d135cb12aec3b6d2cdce8/D5/S3/FluidDynamics/Solitons/NambuKahanCremonaDecomposition.lean"
+      },
+      "lineage": "collected:graffeo-gubbiotti-remark77-generic-nambu-cremona:s3",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\Cr": "\\mathcal C",
+        "\\R": "\\mathbb R",
+        "\\adj": "\\operatorname{adj}",
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "graffeo-gubbiotti-remark77-generic-nambu-cremona",
+      "scope": "in_scope",
+      "statement": "The net in \\cite[(7.16)]{GG}, with\n$H_3(x)=x^TA\\adj(B)Ax$, has eight distinct base points.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Graffeo–Gubbiotti, Remark 7.7 (arXiv:2301.09129v2, pp. 35–37): Nambu conjugacy and the twelve-plane configuration",
+      "toolchain": null,
+      "version": 2,
+      "work": "graffeo-gubbiotti-remark77-generic-nambu-cremona"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:graffeo-gubbiotti-remark77-generic-nambu-cremona:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "86172888e706177b6c1d135cb12aec3b6d2cdce8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/86172888e706177b6c1d135cb12aec3b6d2cdce8/D5/S3/FluidDynamics/Solitons/NambuKahanCremonaDecomposition.lean"
+      },
+      "lineage": "collected:graffeo-gubbiotti-remark77-generic-nambu-cremona:s4",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\Cr": "\\mathcal C",
+        "\\R": "\\mathbb R",
+        "\\adj": "\\operatorname{adj}",
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "graffeo-gubbiotti-remark77-generic-nambu-cremona",
+      "scope": "in_scope",
+      "statement": "Under the hypotheses of Theorem~\\ref{thm:main}, the net (7.16) has exactly\nsix reducible members, each a pair of distinct planes. In suitable coordinates\n$v=(v_1,v_2,v_3,v_4)$, they are\n\\[\n (v_i-v_j)(v_i+v_j)=0\\qquad(1\\le i<j\\le4),\n\\]\nand the base points are\n$p_{\\epsilon}=[\\epsilon_1:\\epsilon_2:\\epsilon_3:1]$,\n$\\epsilon_i\\in\\{1,-1\\}$.\nEach point lies on six of the twelve distinct planes, and each plane contains\nfour of the eight points. More precisely, with $\\epsilon_4=1$,\n\\[\n p_{\\epsilon}\\in\\{v_i-\\sigma v_j=0\\}\n \\quad\\Longleftrightarrow\\quad \\sigma=\\epsilon_i\\epsilon_j.\n\\]\nThe conjugator $U$ sends the base-point set to\n$\\{[e_i],[Ge_i]:1\\le i\\le4\\}$, where $e_i$ are the coordinate vectors.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Graffeo–Gubbiotti, Remark 7.7 (arXiv:2301.09129v2, pp. 35–37): Nambu conjugacy and the twelve-plane configuration",
+      "toolchain": null,
+      "version": 2,
+      "work": "graffeo-gubbiotti-remark77-generic-nambu-cremona"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:graffeo-gubbiotti-remark77-generic-nambu-cremona:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "86172888e706177b6c1d135cb12aec3b6d2cdce8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/86172888e706177b6c1d135cb12aec3b6d2cdce8/D5/S3/FluidDynamics/Solitons/NambuKahanCremonaDecomposition.lean"
+      },
+      "lineage": "collected:graffeo-gubbiotti-remark77-generic-nambu-cremona:s5",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\Cr": "\\mathcal C",
+        "\\R": "\\mathbb R",
+        "\\adj": "\\operatorname{adj}",
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "graffeo-gubbiotti-remark77-generic-nambu-cremona",
+      "scope": "in_scope",
+      "statement": "For complex symmetric $A,B$, suppose the binary cubic\n$\\det(sA+tB)$ has three distinct roots in $\\mathbb P^1(\\C)$.\nThen, for every $h\\in\\C^*$, the Nambu Kahan map is projectively conjugate\nto $[G\\Cr]$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Graffeo–Gubbiotti, Remark 7.7 (arXiv:2301.09129v2, pp. 35–37): Nambu conjugacy and the twelve-plane configuration",
+      "toolchain": null,
+      "version": 2,
+      "work": "graffeo-gubbiotti-remark77-generic-nambu-cremona"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:graffeo-gubbiotti-remark77-generic-nambu-cremona:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "86172888e706177b6c1d135cb12aec3b6d2cdce8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/86172888e706177b6c1d135cb12aec3b6d2cdce8/D5/S3/FluidDynamics/Solitons/NambuKahanCremonaDecomposition.lean"
+      },
+      "lineage": "collected:graffeo-gubbiotti-remark77-generic-nambu-cremona:s6",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\Cr": "\\mathcal C",
+        "\\R": "\\mathbb R",
+        "\\adj": "\\operatorname{adj}",
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "graffeo-gubbiotti-remark77-generic-nambu-cremona",
+      "scope": "in_scope",
+      "statement": "Let $A>0$ and $B=B^T$ be real, and let $h\\ne0$. For $n\\ge0$, the degrees\nof the iterates are $2n^2+1$ for three distinct generalized eigenvalues,\n$2n+1$ for exactly two distinct generalized eigenvalues, and $1$ when all\nthree coincide. All these maps have dynamical degree one and algebraic\nentropy zero.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Graffeo–Gubbiotti, Remark 7.7 (arXiv:2301.09129v2, pp. 35–37): Nambu conjugacy and the twelve-plane configuration",
+      "toolchain": null,
+      "version": 2,
+      "work": "graffeo-gubbiotti-remark77-generic-nambu-cremona"
+    }
+  ]
+}

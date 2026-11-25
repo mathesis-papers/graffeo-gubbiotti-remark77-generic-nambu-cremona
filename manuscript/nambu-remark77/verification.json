@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "arithmetic": "exact symbolic polynomial arithmetic",
+  "sympy_version": "1.14.0",
+  "status": "all identities equal zero",
+  "identities": [
+    {
+      "identity": "Euler cubic factorization",
+      "zero_residuals": 4
+    },
+    {
+      "identity": "determinant of T",
+      "zero_residuals": 1
+    },
+    {
+      "identity": "normal involution",
+      "zero_residuals": 16
+    },
+    {
+      "identity": "determinant of normal matrix",
+      "zero_residuals": 1
+    },
+    {
+      "identity": "Cremona composition",
+      "zero_residuals": 4
+    },
+    {
+      "identity": "Hadamard quartic product",
+      "zero_residuals": 1
+    },
+    {
+      "identity": "four scaled adjugate cubics",
+      "zero_residuals": 4
+    },
+    {
+      "identity": "cross-product covariance",
+      "zero_residuals": 3
+    },
+    {
+      "identity": "eight-point net identities",
+      "zero_residuals": 3
+    },
+    {
+      "identity": "step reversal matrix identity",
+      "zero_residuals": 16
+    },
+    {
+      "identity": "nonorthogonal positive-definite example",
+      "zero_residuals": 4
+    },
+    {
+      "identity": "adjugate congruence in the nonorthogonal example",
+      "zero_residuals": 9
+    },
+    {
+      "identity": "inverse composition constant in the nonorthogonal example",
+      "zero_residuals": 4
+    },
+    {
+      "identity": "forward composition constant in the nonorthogonal example",
+      "zero_residuals": 4
+    },
+    {
+      "identity": "six reducible net members",
+      "zero_residuals": 6
+    },
+    {
+      "identity": "normalized diagonal net coefficient sums",
+      "zero_residuals": 3
+    },
+    {
+      "identity": "equal-square scaled base coordinates",
+      "zero_residuals": 1
+    },
+    {
+      "identity": "double-spectrum cubic lift",
+      "zero_residuals": 4
+    },
+    {
+      "identity": "double-spectrum composition n=0",
+      "zero_residuals": 4
+    },
+    {
+      "identity": "double-spectrum composition n=1",
+      "zero_residuals": 4
+    },
+    {
+      "identity": "double-spectrum composition n=2",
+      "zero_residuals": 4
+    },
+    {
+      "identity": "double-spectrum composition n=3",
+      "zero_residuals": 4
+    },
+    {
+      "identity": "Hamiltonian pencil reparametrization",
+      "zero_residuals": 3
+    }
+  ],
+  "sibling_checks": {
+    "sign_points": 8,
+    "planes": 12,
+    "incidences": 48,
+    "planes_per_point": 6,
+    "points_per_plane": 4,
+    "reducible_quadric_members": 6,
+    "normal_form_base_point_images": 8,
+    "double_spectrum_degrees_n_1_through_4": [
+      3,
+      5,
+      7,
+      9
+    ],
+    "finite_scope": "All sign points and planes are enumerated; four collision iterates are checked explicitly. The general degree laws and the exhaustive six-member classification have written proofs in note.tex."
+  },
+  "example": {
+    "P": [
+      [
+        "2",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "1"
+      ],
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "generalized_eigenvalues": [
+      1,
+      2,
+      5
+    ],
+    "h": "3/5",
+    "positive_definite_forms": true,
+    "commuting_forms": false
+  },
+  "scope": "Universal polynomial identities and one exact nonorthogonal example; spectral reduction, the general complex-pencil and collision results, projective consequences and distinctness arguments are proved in note.tex.",
+  "checker_sha256": "71c6566f38bcc5ae5e7e6c27f353f2d04af2ca0995e21bb2f9f92742087dde30"
+}
