@@ -36,9 +36,9 @@
     "manuscript/nambu-remark77/requirements.txt": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94",
     "manuscript/nambu-remark77/verification.json": "575c13d904813a28086e261289448b512b33ae131588e4277eb40d9f4cf139d5",
     "manuscript/nambu-remark77/verify.py": "71c6566f38bcc5ae5e7e6c27f353f2d04af2ca0995e21bb2f9f92742087dde30",
-    "paper.json": "ae8ff8ff717ed04da8d2352979ba462fde074c87f4aadfebdda63c403e0d47f4",
+    "paper.json": "8332bec236ad6cc0b88029d0ba9e54f90feccfcb09f3c3b778743d19d66a5718",
     "paper.pdf": "1148156bbf783984c97bc9ab7a37fe36c4abc9b89beb1e5842150472b8f33be3",
     "source.archive": "b705dcdb9ea61f56dad2c5962df599027b4a80ca3a41428d18522ec282f90e5e"
   },
-  "snapshot_identity": "06e4a2a86ae1092b7619fb888fe27891685f02c9970f3a5ce7f25707eadf4b32"
+  "snapshot_identity": "d3096d50779c89b2af9c58105459bee4ee7dc0418466778c4375983b94c8ec5b"
 }

@@ -31,6 +31,7 @@
     "concept_doi": null,
     "current_version": 2,
     "doi": null,
+    "kind": "note",
     "lean_source": {
       "revision": "86172888e706177b6c1d135cb12aec3b6d2cdce8",
       "url": "https://github.com/the-omega-institute/trureturing/blob/86172888e706177b6c1d135cb12aec3b6d2cdce8/D5/S3/FluidDynamics/Solitons/NambuKahanCremonaDecomposition.lean"
@@ -55,10 +56,12 @@
     "title": "Graffeo–Gubbiotti, Remark 7.7 (arXiv:2301.09129v2, pp. 35–37): Nambu conjugacy and the twelve-plane configuration",
     "versions": [
       {
+        "changelog": null,
         "previous_version": null,
         "published_on": "2026-11-25T18:47:05.105373945Z",
         "revision": "2",
-        "version": 2
+        "version": 2,
+        "version_label": null
       }
     ],
     "work": "graffeo-gubbiotti-remark77-generic-nambu-cremona"
